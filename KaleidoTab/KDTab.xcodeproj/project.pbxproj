@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0598361818D7C4BE009EE898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598361718D7C4BE009EE898 /* Foundation.framework */; };
+		0598361A18D7C4BE009EE898 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598361918D7C4BE009EE898 /* CoreGraphics.framework */; };
+		0598361C18D7C4BE009EE898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598361B18D7C4BE009EE898 /* UIKit.framework */; };
+		0598362218D7C4BE009EE898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0598362018D7C4BE009EE898 /* InfoPlist.strings */; };
+		0598362418D7C4BE009EE898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598362318D7C4BE009EE898 /* main.m */; };
+		0598362818D7C4BE009EE898 /* KaleidoViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598362718D7C4BE009EE898 /* KaleidoViewAppDelegate.m */; };
+		0598362A18D7C4BE009EE898 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0598362918D7C4BE009EE898 /* Images.xcassets */; };
+		0598363118D7C4BE009EE898 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598363018D7C4BE009EE898 /* XCTest.framework */; };
+		0598363218D7C4BE009EE898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598361718D7C4BE009EE898 /* Foundation.framework */; };
+		0598363318D7C4BE009EE898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598361B18D7C4BE009EE898 /* UIKit.framework */; };
+		0598363B18D7C4BE009EE898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0598363918D7C4BE009EE898 /* InfoPlist.strings */; };
+		0598363D18D7C4BE009EE898 /* KDTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598363C18D7C4BE009EE898 /* KDTabTests.m */; };
+		0598364818D7C4F7009EE898 /* KaleidoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598364718D7C4F7009EE898 /* KaleidoViewViewController.m */; };
+		0598364B18D7C57D009EE898 /* KaleidoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598364A18D7C57D009EE898 /* KaleidoView.m */; };
+		0598364F18D7C5AB009EE898 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598364D18D7C5AB009EE898 /* SettingsViewController.m */; };
+		0598365018D7C5AB009EE898 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0598364E18D7C5AB009EE898 /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0598363418D7C4BE009EE898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0598360C18D7C4BE009EE898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0598361318D7C4BE009EE898;
+			remoteInfo = KDTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0598361418D7C4BE009EE898 /* KDTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0598361718D7C4BE009EE898 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0598361918D7C4BE009EE898 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0598361B18D7C4BE009EE898 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0598361F18D7C4BE009EE898 /* KDTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KDTab-Info.plist"; sourceTree = "<group>"; };
+		0598362118D7C4BE009EE898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0598362318D7C4BE009EE898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0598362518D7C4BE009EE898 /* KDTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDTab-Prefix.pch"; sourceTree = "<group>"; };
+		0598362618D7C4BE009EE898 /* KaleidoViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaleidoViewAppDelegate.h; sourceTree = "<group>"; };
+		0598362718D7C4BE009EE898 /* KaleidoViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaleidoViewAppDelegate.m; sourceTree = "<group>"; };
+		0598362918D7C4BE009EE898 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0598362F18D7C4BE009EE898 /* KDTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0598363018D7C4BE009EE898 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0598363818D7C4BE009EE898 /* KDTabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KDTabTests-Info.plist"; sourceTree = "<group>"; };
+		0598363A18D7C4BE009EE898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0598363C18D7C4BE009EE898 /* KDTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDTabTests.m; sourceTree = "<group>"; };
+		0598364618D7C4F7009EE898 /* KaleidoViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaleidoViewViewController.h; sourceTree = "<group>"; };
+		0598364718D7C4F7009EE898 /* KaleidoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaleidoViewViewController.m; sourceTree = "<group>"; };
+		0598364918D7C57D009EE898 /* KaleidoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaleidoView.h; sourceTree = "<group>"; };
+		0598364A18D7C57D009EE898 /* KaleidoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaleidoView.m; sourceTree = "<group>"; };
+		0598364C18D7C5AB009EE898 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0598364D18D7C5AB009EE898 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0598364E18D7C5AB009EE898 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0598361118D7C4BE009EE898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598361A18D7C4BE009EE898 /* CoreGraphics.framework in Frameworks */,
+				0598361C18D7C4BE009EE898 /* UIKit.framework in Frameworks */,
+				0598361818D7C4BE009EE898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0598362C18D7C4BE009EE898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598363118D7C4BE009EE898 /* XCTest.framework in Frameworks */,
+				0598363318D7C4BE009EE898 /* UIKit.framework in Frameworks */,
+				0598363218D7C4BE009EE898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0598360B18D7C4BE009EE898 = {
+			isa = PBXGroup;
+			children = (
+				0598361D18D7C4BE009EE898 /* KaleidoTab */,
+				0598363618D7C4BE009EE898 /* KaleidoTabTests */,
+				0598361618D7C4BE009EE898 /* Frameworks */,
+				0598361518D7C4BE009EE898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0598361518D7C4BE009EE898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0598361418D7C4BE009EE898 /* KDTab.app */,
+				0598362F18D7C4BE009EE898 /* KDTabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0598361618D7C4BE009EE898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0598361718D7C4BE009EE898 /* Foundation.framework */,
+				0598361918D7C4BE009EE898 /* CoreGraphics.framework */,
+				0598361B18D7C4BE009EE898 /* UIKit.framework */,
+				0598363018D7C4BE009EE898 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0598361D18D7C4BE009EE898 /* KaleidoTab */ = {
+			isa = PBXGroup;
+			children = (
+				0598362618D7C4BE009EE898 /* KaleidoViewAppDelegate.h */,
+				0598362718D7C4BE009EE898 /* KaleidoViewAppDelegate.m */,
+				0598364C18D7C5AB009EE898 /* SettingsViewController.h */,
+				0598364D18D7C5AB009EE898 /* SettingsViewController.m */,
+				0598364E18D7C5AB009EE898 /* SettingsViewController.xib */,
+				0598364918D7C57D009EE898 /* KaleidoView.h */,
+				0598364A18D7C57D009EE898 /* KaleidoView.m */,
+				0598364618D7C4F7009EE898 /* KaleidoViewViewController.h */,
+				0598364718D7C4F7009EE898 /* KaleidoViewViewController.m */,
+				0598362918D7C4BE009EE898 /* Images.xcassets */,
+				0598361E18D7C4BE009EE898 /* Supporting Files */,
+			);
+			name = KaleidoTab;
+			path = KDTab;
+			sourceTree = "<group>";
+		};
+		0598361E18D7C4BE009EE898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0598361F18D7C4BE009EE898 /* KDTab-Info.plist */,
+				0598362018D7C4BE009EE898 /* InfoPlist.strings */,
+				0598362318D7C4BE009EE898 /* main.m */,
+				0598362518D7C4BE009EE898 /* KDTab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0598363618D7C4BE009EE898 /* KaleidoTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				0598363C18D7C4BE009EE898 /* KDTabTests.m */,
+				0598363718D7C4BE009EE898 /* Supporting Files */,
+			);
+			name = KaleidoTabTests;
+			path = KDTabTests;
+			sourceTree = "<group>";
+		};
+		0598363718D7C4BE009EE898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0598363818D7C4BE009EE898 /* KDTabTests-Info.plist */,
+				0598363918D7C4BE009EE898 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0598361318D7C4BE009EE898 /* KDTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0598364018D7C4BE009EE898 /* Build configuration list for PBXNativeTarget "KDTab" */;
+			buildPhases = (
+				0598361018D7C4BE009EE898 /* Sources */,
+				0598361118D7C4BE009EE898 /* Frameworks */,
+				0598361218D7C4BE009EE898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDTab;
+			productName = KDTab;
+			productReference = 0598361418D7C4BE009EE898 /* KDTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0598362E18D7C4BE009EE898 /* KDTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0598364318D7C4BE009EE898 /* Build configuration list for PBXNativeTarget "KDTabTests" */;
+			buildPhases = (
+				0598362B18D7C4BE009EE898 /* Sources */,
+				0598362C18D7C4BE009EE898 /* Frameworks */,
+				0598362D18D7C4BE009EE898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0598363518D7C4BE009EE898 /* PBXTargetDependency */,
+			);
+			name = KDTabTests;
+			productName = KDTabTests;
+			productReference = 0598362F18D7C4BE009EE898 /* KDTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0598360C18D7C4BE009EE898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KaleidoView;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Azim Shaik";
+				TargetAttributes = {
+					0598362E18D7C4BE009EE898 = {
+						TestTargetID = 0598361318D7C4BE009EE898;
+					};
+				};
+			};
+			buildConfigurationList = 0598360F18D7C4BE009EE898 /* Build configuration list for PBXProject "KDTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0598360B18D7C4BE009EE898;
+			productRefGroup = 0598361518D7C4BE009EE898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0598361318D7C4BE009EE898 /* KDTab */,
+				0598362E18D7C4BE009EE898 /* KDTabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0598361218D7C4BE009EE898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598362218D7C4BE009EE898 /* InfoPlist.strings in Resources */,
+				0598365018D7C5AB009EE898 /* SettingsViewController.xib in Resources */,
+				0598362A18D7C4BE009EE898 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0598362D18D7C4BE009EE898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598363B18D7C4BE009EE898 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0598361018D7C4BE009EE898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598364B18D7C57D009EE898 /* KaleidoView.m in Sources */,
+				0598364818D7C4F7009EE898 /* KaleidoViewViewController.m in Sources */,
+				0598364F18D7C5AB009EE898 /* SettingsViewController.m in Sources */,
+				0598362418D7C4BE009EE898 /* main.m in Sources */,
+				0598362818D7C4BE009EE898 /* KaleidoViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0598362B18D7C4BE009EE898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0598363D18D7C4BE009EE898 /* KDTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0598363518D7C4BE009EE898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0598361318D7C4BE009EE898 /* KDTab */;
+			targetProxy = 0598363418D7C4BE009EE898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0598362018D7C4BE009EE898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0598362118D7C4BE009EE898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0598363918D7C4BE009EE898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0598363A18D7C4BE009EE898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0598363E18D7C4BE009EE898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0598363F18D7C4BE009EE898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0598364118D7C4BE009EE898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTab/KDTab-Prefix.pch";
+				INFOPLIST_FILE = "KDTab/KDTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0598364218D7C4BE009EE898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTab/KDTab-Prefix.pch";
+				INFOPLIST_FILE = "KDTab/KDTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0598364418D7C4BE009EE898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KDTab.app/KDTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTab/KDTab-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KDTabTests/KDTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0598364518D7C4BE009EE898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KDTab.app/KDTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTab/KDTab-Prefix.pch";
+				INFOPLIST_FILE = "KDTabTests/KDTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0598360F18D7C4BE009EE898 /* Build configuration list for PBXProject "KDTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0598363E18D7C4BE009EE898 /* Debug */,
+				0598363F18D7C4BE009EE898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0598364018D7C4BE009EE898 /* Build configuration list for PBXNativeTarget "KDTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0598364118D7C4BE009EE898 /* Debug */,
+				0598364218D7C4BE009EE898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0598364318D7C4BE009EE898 /* Build configuration list for PBXNativeTarget "KDTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0598364418D7C4BE009EE898 /* Debug */,
+				0598364518D7C4BE009EE898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0598360C18D7C4BE009EE898 /* Project object */;
+}

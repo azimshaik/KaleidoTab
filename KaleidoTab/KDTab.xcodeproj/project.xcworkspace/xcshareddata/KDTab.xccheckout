@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01D8A255-04F3-402A-81CA-C98EB9A35CAA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KDTab</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>34448F73-A62B-4BA7-810F-F15231ED0463</key>
+		<string>http://classes.cs.kent.edu/courses/cs49995/svn/ashaik</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KaleidoTab/KaleidoTab/KDTab.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>34448F73-A62B-4BA7-810F-F15231ED0463</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>34448F73-A62B-4BA7-810F-F15231ED0463</key>
+		<string>http://classes.cs.kent.edu/courses/cs49995/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://classes.cs.kent.edu/courses/cs49995/svn/ashaik/KaleidoTab/KaleidoTab/KDTab.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>34448F73-A62B-4BA7-810F-F15231ED0463</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>34448F73-A62B-4BA7-810F-F15231ED0463</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ashaik</string>
+		</dict>
+	</array>
+</dict>
+</plist>
